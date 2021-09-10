@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header'
 import Footer from './components/footer'
+import Contact from './components/contact'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
   Tel: (516)318-1366
 </p>
 <button>Check out my work</button>
+<Contact/>
     </div>
   );
 }
