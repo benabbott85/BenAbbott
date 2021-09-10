@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import {Row, Container} from "reactstrap"
 // import { Link } from "react-router-dom";
 // import Footer from "../footer"
 // import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
@@ -23,10 +24,13 @@ export default function Contact () {
 
         
         <div>
-
-            <h1 className="forgotpass">Forgot Password</h1>
-            < div className="containter">
+            <Container>
+<Row>
+    <img className='officeimg' src="https://www.brunner-group.com/CelumDownloads/85823_tm_stage_Homeoffice_1920x1080_M.jpg" alt='office'/>
+            <h1 className="contactme">Contact Me</h1>
+            < div className="container">
                 <form className="forgot"onSubmit={sendEmail}>
+
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -51,6 +55,8 @@ export default function Contact () {
             <br/>
             <br/>
             <br/>
+            </Row>
+            </Container>
         </div>
        
     )
