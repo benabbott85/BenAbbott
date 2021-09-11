@@ -51,7 +51,17 @@
 
 .contactme{
   margin-left: 300px;
- margin-top: -300px;
+ margin-top: -365px;
 }
 
+.github{
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.eriver{
+  width: 400px;
+  height: 400px;
+  margin-left: -550px;
+}
 

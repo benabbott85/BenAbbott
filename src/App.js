@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header'
 import Footer from './components/footer'
 import Contact from './components/contact'
+import Portfolio from './components/portfolio'
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,11 @@ function App() {
   Tel: (516)318-1366
 </p>
 <button>Check out my work</button>
+<Portfolio/>
 <Contact/>
+<br/>
+<br/>
+<Footer/>
     </div>
   );
 }
