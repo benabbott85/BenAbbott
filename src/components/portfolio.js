@@ -5,7 +5,7 @@ import Ruck from './assets/ruck.jpeg'
 function Portfolio(){
     return (
 <div>
-<h1>Here are some of my projects</h1>
+<h1 className='ptitle'>Here are some of my projects</h1>
 <Row>
 <Col md={4}>
     <Card>

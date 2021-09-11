@@ -62,7 +62,7 @@
 .eriver{
   width: 400px;
   height: 400px;
-  margin-left: -850px;
+  margin-left: -725px;
 }
 
 .eastbtn{
@@ -75,7 +75,7 @@
 }
 
 .etitle{
-  margin-left: -675px;
+  margin-left: -575px;
   /* margin-top: 50px; */
 
 }
@@ -84,4 +84,6 @@
   margin-left: 1000px;
   margin-top: -435px;
 }
+
+
 
