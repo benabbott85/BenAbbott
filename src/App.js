@@ -25,9 +25,9 @@ function App() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyleApp>
-      <button className='darkbtn'onClick={() => themeToggler()}>
+      <button className='darkbtn'onClick={() => themeToggler()}><img  className='slide'src='https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png' alt ='slider'/>
 <div class="background"></div>
-<label for="toggle" class="title">Change Mode</label></button>
+<label for="toggle" class="title"></label></button>
       {/* <Color> */}
       {/* <Header/> */}
 <h1>Ben Abbott</h1>

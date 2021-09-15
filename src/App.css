@@ -125,8 +125,15 @@ width: 200px;
 
 .darkbtn{
   margin-left: 1200px;
-  background: red;
-  color: white;
-  padding: 5px;
+   background:white;
+  /* color: white; */ 
+  /* padding: 5px; */
+  
 }
 
+.slide{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 10px;
+}
