@@ -5,8 +5,6 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Contact from './components/contact'
 import Portfolio from './components/portfolio';
-import Color from './components/darklight'
-
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
 
@@ -26,7 +24,7 @@ function App() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyleApp>
-      <button onClick={() => themeToggler()}>Light Mode/Dark Mode</button>
+      <button className='darkbtn'onClick={() => themeToggler()}>Light Mode/Dark Mode</button>
       {/* <Color> */}
       {/* <Header/> */}
 <h1>Ben Abbott</h1>
