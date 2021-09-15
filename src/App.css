@@ -120,10 +120,13 @@ width: 200px;
 }
 
 .vtitle{
-  margin-left: -600px;
+  margin-left: -550px;
 }
 
 .darkbtn{
   margin-left: 1200px;
+  background: red;
+  color: white;
+  padding: 5px;
 }
 
