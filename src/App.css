@@ -41,18 +41,19 @@
   width: 600px;
   height: 350px;
   margin-left: -820px;
-  margin-top: 100px;
+  margin-top: 600px;
 }
 
 .forgot{
  margin-left: 300px;
- /* margin-top: -300px; */
+ margin-top: 0px;
 }
 
 .contactme{
-  margin-left: 300px;
- margin-top: -365px;
+  margin-left: 325px;
+ margin-top: -280px;
 }
+
 
 .github{
   padding-left: 20px;
@@ -62,7 +63,7 @@
 .eriver{
   width: 400px;
   height: 400px;
-  margin-left: -725px;
+  margin-left: 30px;
 }
 
 .eastbtn{
@@ -70,20 +71,55 @@
   color: white;
   padding: 10px;
   margin-left: -250px;
+  margin-top: -250px;
+/* bottom: 250px; */
+  z-index: 1
+}
+
+.ecard{
+  margin-left: -800px;
+}
+.ruckbtn{
+  background: red;
+  color: white;
+  padding: 10px;
+  /* margin-left: 150px; */
+  margin-top: -500px;
 /* bottom: 250px; */
   z-index: 1
 }
 
 .etitle{
-  margin-left: -575px;
+  /* margin-left: -575px; */
   /* margin-top: 50px; */
 
 }
 
 .ruckcard{
-  margin-left: 1000px;
+  margin-left: 690px;
   margin-top: -435px;
+  width:450px;
+  
 }
 
+.ruckimg{
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
 
+.rtitle{
+  margin-left: 100px;
+width: 200px;
+}
+
+.vhome{
+  width: 400px;
+  height: 400px;
+  margin-left: -775px;
+}
+
+.vtitle{
+  margin-left: -600px;
+}
 
