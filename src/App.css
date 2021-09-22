@@ -137,3 +137,12 @@ width: 200px;
   background-color: white;
   padding: 10px;
 }
+
+.time{
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.timehead{
+  margin-left: -450px;
+}

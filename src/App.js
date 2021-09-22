@@ -8,7 +8,7 @@ import Contact from './components/contact'
 import Portfolio from './components/portfolio';
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
-import Slide from './components/assets/switch.gif'
+import Timeline from './components/timeline'
 const StyleApp = styled.div`
   color: ${(props) => props.theme.fontColor};
 `;
@@ -42,6 +42,7 @@ function App() {
  <a href='./portfolio'><button>Check out my work</button></a>
 
 <Portfolio/>
+<Timeline/>
 <Contact/>
 <br/>
 <br/>
