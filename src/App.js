@@ -22,17 +22,17 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      {/* <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <StyleApp>
-      <button className='darkbtn'onClick={() => themeToggler()}><img  className='slide'src='https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png' alt ='slider'/>
+      <StyleApp> */}
+      {/* <button className='darkbtn'onClick={() => themeToggler()}><img  className='slide'src='https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png' alt ='slider'/> */}
 <div class="background"></div>
-<label for="toggle" class="title"></label></button>
+{/* <label for="toggle" class="title"></label></button> */}
       {/* <Color> */}
       {/* <Header/> */}
-<h1>Ben Abbott</h1>
-<h2>Full Stack Software Engineer</h2>
-<p>Contact me to collaborate: 
+<h1 className="me">Ben Abbott</h1>
+<h2 className="me">Full Stack Software Engineer</h2>
+<p className="me">Contact me to collaborate: 
   <br/>
   babbott85@gmail.com
   <br/>
@@ -49,8 +49,8 @@ function App() {
 <Footer/>
 {/* </Color> */}
 
-      </StyleApp>
-    </ThemeProvider>
+    {/* //   </StyleApp> */}
+    {/* // </ThemeProvider> */}
     </div>
   );
 }

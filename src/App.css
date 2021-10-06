@@ -141,8 +141,27 @@ width: 200px;
 .time{
   margin-left: 400px;
   margin-top: 100px;
+  /* color: white; */
 }
 
 .timehead{
   margin-left: -450px;
+  
+}
+/* .me{
+  color: white;
+} */
+
+
+
+body{
+  background-image: url(./components/assets/back2.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  opacity: 1.2;
+  /* background-color: blue; */
+}
+
+.webpro{
+  margin-top: 50px;
 }
