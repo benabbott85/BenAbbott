@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row} from 'reactstrap'
+import { Row} from 'reactstrap'
 import Rct from './assets/react.png'
 import JS from './assets/JS.png'
 import Node from './assets/node.png'
