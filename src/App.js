@@ -1,18 +1,18 @@
-import React, {useState} from 'react'
+import React from 'react'
 // import logo from './logo.svg';
 import './App.css';
 // import {Link, Router, Switch} from 'react-router-dom'
-import Header from './components/header'
+// import Header from './components/header'
 import Footer from './components/footer'
 import Contact from './components/contact'
 import Portfolio from './components/portfolio';
 import Tech from './components/tech'
-import styled, { ThemeProvider } from "styled-components";
+// import styled, { ThemeProvider } from "styled-components";
 // import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
 import Timeline from './components/timeline'
-const StyleApp = styled.div`
-  color: ${(props) => props.theme.fontColor};
-`;
+// const StyleApp = styled.div`
+//   color: ${(props) => props.theme.fontColor};
+// `;
 function App() {
 
   // const [theme, setTheme] = useState("light");
