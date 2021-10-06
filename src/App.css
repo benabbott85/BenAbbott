@@ -158,10 +158,20 @@ body{
   background-image: url(./components/assets/back2.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
-  opacity: 1.2;
+  opacity: 1.8;
   /* background-color: blue; */
 }
 
 .webpro{
   margin-top: 50px;
+}
+
+.mongo{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.contactcontain{
+  margin-top: -400px;
 }

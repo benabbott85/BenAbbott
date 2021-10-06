@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row} from 'reactstrap'
-import Rct from './assets/react.ong'
+import Rct from './assets/react.png'
 import JS from './assets/JS.png'
 import Node from './assets/node.png'
 import Mongo from './assets/mongo.png'
@@ -13,7 +13,7 @@ function tech(){
 <img src={Rct} alt='react'/>
 <img src={JS} alt='JS'/>
 <img src={Node} alt='node'/>
-<img src={Mongo} alt='mongo'/>
+<img className="mongo"src={Mongo} alt='mongo'/>
 <img src={Material} alt ='material'/>
 </Row>
 </>

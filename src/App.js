@@ -6,6 +6,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Contact from './components/contact'
 import Portfolio from './components/portfolio';
+import Tech from './components/tech'
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
 import Timeline from './components/timeline'
@@ -32,13 +33,14 @@ function App() {
       {/* <Header/> */}
 <h1 className="me">Ben Abbott</h1>
 <h2 className="me">Full Stack Software Engineer</h2>
+<h2 className="me">Denver, Colorado</h2>
 <p className="me">Contact me to collaborate: 
   <br/>
   babbott85@gmail.com
   <br/>
   Tel: (516)318-1366
 </p>
-
+<Tech/>
  <a href='./portfolio'><button>Check out my work</button></a>
 
 <Portfolio/>
