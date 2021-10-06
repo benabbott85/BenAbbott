@@ -31,8 +31,15 @@ function App() {
 {/* <label for="toggle" class="title"></label></button> */}
       {/* <Color> */}
       {/* <Header/> */}
-<h1 className="me">Ben Abbott</h1>
-<h2 className="me">Full Stack Software Engineer</h2>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
+<h1 className="ben">Ben Abbott</h1>
+<h2 className="stack">Full Stack Software Engineer</h2>
 <h2 className="me">Denver, Colorado</h2>
 <p className="me">Contact me to collaborate: 
   <br/>
@@ -40,9 +47,23 @@ function App() {
   <br/>
   Tel: (516)318-1366
 </p>
-<Tech/>
- <a href='./portfolio'><button>Check out my work</button></a>
 
+ <a  href='https://github.com/benabbott85'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
+ <br/>
+      
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+ <Tech/>
 <Portfolio/>
 <Timeline/>
 <Contact/>

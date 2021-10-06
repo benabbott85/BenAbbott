@@ -10,11 +10,11 @@ function tech(){
 <>
 <h2>Tech that I use:</h2>
 <Row>
-<img src={Rct} alt='react'/>
-<img src={JS} alt='JS'/>
-<img src={Node} alt='node'/>
+<img className="mongo" src={Rct} alt='react'/>
+<img className="mongo" src={JS} alt='JS'/>
+<img className="mongo" src={Node} alt='node'/>
 <img className="mongo"src={Mongo} alt='mongo'/>
-<img src={Material} alt ='material'/>
+<img className="mongo"src={Material} alt ='material'/>
 </Row>
 </>
     )
