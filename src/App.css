@@ -51,7 +51,7 @@
 
 .contactme{
   margin-left: 325px;
- margin-top: -280px;
+ margin-top: -330px;
 }
 
 
@@ -193,5 +193,24 @@ body{
   font-size: 40px;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
+.namecontact{
+  width: 250px;
+  height: 30px;
+}
+
+.emailcontact{
+  width: 250px;
+  height: 30px;
+}
+
+
+.btn{
+background: blue;
+color: white;
+padding: 10px;
+margin-top: 10px;
+}
+
 
 

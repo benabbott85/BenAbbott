@@ -32,16 +32,16 @@ export default function Contact () {
                 <form className="forgot"onSubmit={sendEmail}>
 
                     <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                        <div className="col-8 form-group mx-auto ">
+                            <input type="text" className="form-control namecontact" placeholder="Name" name="name"/>
                         </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                        <div className="col-8 form-group pt-2 mx-auto ">
+                            <input type="email" className="form-control emailcontact" placeholder="Email Address" name="email"/>
                         </div>
                         {/* <div className="col-8 form-group pt-2 mx-auto">
                             <input type="text" className="form-control" placeholder="Email Address" name="email"/>
                         </div> */}
-                        <div className="col-8 form-group pt-2 mx-auto">
+                        <div className="col-8 form-group pt-2 mx-auto messagecontact">
                             <textarea className="form-control" id="forgotmessage" cols="30" rows ="8" placeholder="Message" name="message"/>
                         </div>
                         <div className="col-8 pt-3 mx-auto">

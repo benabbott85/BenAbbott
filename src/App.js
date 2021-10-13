@@ -48,7 +48,7 @@ function App() {
   Tel: (516)318-1366
 </p>
 
- <a  href='https://github.com/benabbott85'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
+ <a  href='https://github.com/benabbott85' target='_blank'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
  <br/>
       
       <br/>
