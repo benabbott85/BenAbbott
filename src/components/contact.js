@@ -41,8 +41,8 @@ export default function Contact () {
                         {/* <div className="col-8 form-group pt-2 mx-auto">
                             <input type="text" className="form-control" placeholder="Email Address" name="email"/>
                         </div> */}
-                        <div className="col-8 form-group pt-2 mx-auto messagecontact">
-                            <textarea className="form-control" id="forgotmessage" cols="30" rows ="8" placeholder="Message" name="message"/>
+                        <div className="col-8 form-group pt-2 mx-auto ">
+                            <textarea className="form-control messagecontact" id="forgotmessage" cols="30" rows ="8" placeholder="Message" name="message"/>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
                             <input type="submit" className="btn btn-info" value="Send Email"></input>
@@ -61,3 +61,4 @@ export default function Contact () {
        
     )
 }
+

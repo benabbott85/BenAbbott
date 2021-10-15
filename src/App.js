@@ -9,7 +9,8 @@ import Portfolio from './components/portfolio';
 import Tech from './components/tech'
 // import styled, { ThemeProvider } from "styled-components";
 // import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
-import Timeline from './components/timeline'
+import Timeline from './components/timeline';
+import MaterialNav from './components/materialnav'
 // const StyleApp = styled.div`
 //   color: ${(props) => props.theme.fontColor};
 // `;
@@ -26,6 +27,7 @@ function App() {
       {/* <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyleApp> */}
+      
       {/* <button className='darkbtn'onClick={() => themeToggler()}><img  className='slide'src='https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png' alt ='slider'/> */}
 <div class="background"></div>
 {/* <label for="toggle" class="title"></label></button> */}
