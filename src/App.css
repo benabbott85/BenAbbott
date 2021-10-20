@@ -50,7 +50,7 @@
 }
 
 .contactme{
-  margin-left: 325px;
+  margin-left: 475px;
  margin-top: -390px;
 }
 
@@ -70,34 +70,37 @@
   background: red;
   color: white;
   padding: 10px;
-  margin-left: -250px;
+  /* margin-left: -250px; */
   margin-top: -250px;
 /* bottom: 250px; */
   z-index: 1
 }
 
 .ecard{
-  margin-left: -800px;
+  margin-left: -575px;
 }
 .ruckbtn{
   background: blue;
   color: white;
   padding: 10px;
-  /* margin-left: 150px; */
+  margin-left: -550px;
   margin-top: -500px;
 /* bottom: 250px; */
   z-index: 1
 }
 
 .etitle{
-  /* margin-left: -575px; */
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  /* margin-left: -275px; */
   /* margin-top: 50px; */
 
 }
 
 .ruckcard{
   margin-left: 690px;
-  margin-top: -435px;
+  margin-top: -470px;
   width:450px;
   
 }
@@ -106,21 +109,46 @@
   width: 400px;
   height: 400px;
   margin-left: 10px;
+  z-index: 0;
 }
 
 .rtitle{
-  margin-left: 100px;
+  margin-left: 120px;
 width: 200px;
+color: blue;
+font-weight: bold;
+font-size: 30px;
+}
+
+.ruckbtn{
+  background: blue;
+  color: white;
+  margin-top: -550px !important;
+  margin-left: 30px !important;
+  z-index: 5;
 }
 
 .vhome{
   width: 400px;
   height: 400px;
-  margin-left: -775px;
+  margin-left:150px;
 }
 
 .vtitle{
-  margin-left: -550px;
+  margin-left: 150px;
+  font-weight: bold;
+  color: blue;
+  font-size: 30px;
+}
+
+.vcard{
+  margin-left: -150px;
+}
+
+.vbtn{
+  margin-left: -150px;
+  background:blue;
+  height: 500px;
 }
 
 .darkbtn{
@@ -196,31 +224,36 @@ body{
 }
 
 .namecontact{
-  width: 450px;
-  height: 30px;
+  width: 550px;
+  height: 40px;
+  margin-left: 200px;
 }
 
 .emailcontact{
-  width: 450px;
-  height: 30px;
+  width: 550px;
+  height: 40px;
+  margin-left: 200px;
 }
 
 .messagecontact{
-  width: 450px;
+  width: 550px;
   height: 250px;
+  margin-left: 200px;
 }
-.btn{
+.btn-info{
 background: blue;
 color: white;
 padding: 10px;
 margin-top: 10px;
+margin-left: 200px;
 }
 
 .resumeBtn{
-  margin-left: 15px;
+  /* margin-left: -100px; */
+  font-weight: bold;
   background: blue;
   color: white;
-  padding: 10px 5px 5px 5px;
+  padding: 10px;
   width: 125px;
 margin-top: -100px !important
   /* margin-bottom:145px;

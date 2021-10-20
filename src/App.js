@@ -52,6 +52,8 @@ function App() {
 
  <a  href='https://github.com/benabbott85' target='_blank'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
  <br/>
+ <br/>
+ <a href='https://drive.google.com/file/d/1Q1l-a2Lw8CBPAE-QGwlCfl6umjrBGKZM/view?usp=sharing'><button className ='resumeBtn'target='_blank'>MY RESUME</button></a>
       
       <br/>
       <br/>
