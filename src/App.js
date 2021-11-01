@@ -50,10 +50,10 @@ function App() {
   Tel: (516)318-1366
 </p>
 
- <a  href='https://github.com/benabbott85' target='_blank'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
+ <a  href='https://github.com/benabbott85' target='_blank' rel="noreferrer"><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
  <br/>
  <br/>
- <a href='https://drive.google.com/file/d/1Q1l-a2Lw8CBPAE-QGwlCfl6umjrBGKZM/view?usp=sharing' target='_blank'><button className ='resumeBtn'>MY RESUME</button></a>
+ <a href='https://drive.google.com/file/d/1Q1l-a2Lw8CBPAE-QGwlCfl6umjrBGKZM/view?usp=sharing' target='_blank' rel="noreferrer"><button className ='resumeBtn'>MY RESUME</button></a>
       
       <br/>
       <br/>
