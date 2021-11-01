@@ -10,7 +10,7 @@ import Tech from './components/tech'
 // import styled, { ThemeProvider } from "styled-components";
 // import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
 import Timeline from './components/timeline';
-import MaterialNav from './components/materialnav'
+// import MaterialNav from './components/materialnav'
 // const StyleApp = styled.div`
 //   color: ${(props) => props.theme.fontColor};
 // `;
@@ -53,7 +53,7 @@ function App() {
  <a  href='https://github.com/benabbott85' target='_blank'><button className= 'workBtn'>CHECK OUT MY WORK</button></a>
  <br/>
  <br/>
- <a href='https://drive.google.com/file/d/1Q1l-a2Lw8CBPAE-QGwlCfl6umjrBGKZM/view?usp=sharing'><button className ='resumeBtn'target='_blank'>MY RESUME</button></a>
+ <a href='https://drive.google.com/file/d/1Q1l-a2Lw8CBPAE-QGwlCfl6umjrBGKZM/view?usp=sharing' target='_blank'><button className ='resumeBtn'>MY RESUME</button></a>
       
       <br/>
       <br/>

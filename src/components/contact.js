@@ -36,7 +36,7 @@ export default function Contact () {
                             <input type="text" className="form-control namecontact" placeholder="Name" name="name"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto ">
-                            <input type="email" className="form-control emailcontact" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form-control emailcontact" placeholder="Email Address" name="address"/>
                         </div>
                         {/* <div className="col-8 form-group pt-2 mx-auto">
                             <input type="text" className="form-control" placeholder="Email Address" name="email"/>
