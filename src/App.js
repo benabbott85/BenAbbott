@@ -11,28 +11,18 @@ import Tech from './components/tech'
 // import { lightTheme, darkTheme, GlobalStyles } from "./components/modetheme";
 import Timeline from './components/timeline';
 // import MaterialNav from './components/materialnav'
-// const StyleApp = styled.div`
-//   color: ${(props) => props.theme.fontColor};
-// `;
+
 function App() {
 
-  // const [theme, setTheme] = useState("light");
-
-  // const themeToggler = () => {
-  //   theme === "light" ? setTheme("dark") : setTheme("light");
-  // };
+  
 
   return (
     <div className="App">
-      {/* <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-      <GlobalStyles />
-      <StyleApp> */}
+     
       
-      {/* <button className='darkbtn'onClick={() => themeToggler()}><img  className='slide'src='https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png' alt ='slider'/> */}
+      
 <div class="background"></div>
-{/* <label for="toggle" class="title"></label></button> */}
-      {/* <Color> */}
-      {/* <Header/> */}
+
       <br/>
       <br/>
       <br/>
@@ -74,10 +64,7 @@ function App() {
 <br/>
 <br/>
 <Footer/>
-{/* </Color> */}
 
-    {/* //   </StyleApp> */}
-    {/* // </ThemeProvider> */}
     </div>
   );
 }
