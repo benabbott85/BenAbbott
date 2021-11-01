@@ -18,7 +18,7 @@ function Portfolio(){
         {/* <a href="https://eastriver-contracting.com/" target='_blank'><Button className="eastbtn">View More</Button></a> */}
     
         </Col>
-    <a href="https://eastriver-contracting.com/" target='_blank'><Button className="ruckbtn">View More</Button></a>
+    <a href="https://eastriver-contracting.com/" target='_blank' rel="noreferrer"><Button className="ruckbtn">View More</Button></a>
     </Card>
 
 
@@ -31,7 +31,7 @@ function Portfolio(){
         <CardImg className='ruckimg' src={Ruck} alt='east river'/>
         {/* <a href="https://ruckroofing.com/" target='_blank'><Button className="ruckbtn">View More</Button></a> */}
         </Col>
-                <a href="https://ruckroofing.com/" target='_blank'><Button className="ruckbtn">View More</Button></a>
+                <a href="https://ruckroofing.com/" target='_blank' rel="noreferrer"><Button className="ruckbtn">View More</Button></a>
 
     </Card>
     <br/>
@@ -43,7 +43,7 @@ function Portfolio(){
         <CardImg className='vhome' src='https://ca-times.brightspotcdn.com/dims4/default/04e367d/2147483647/strip/true/crop/2048x1152+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F55%2F17%2F4eacf672c654bed1adb04ce34a85%2Fla-pol-us-vote-california-20160702-photo' alt='east river'/>
         {/* <a href="https://github.com/benabbott85/coronavote" target='_blank'><Button className="eastbtn">View More</Button></a> */}
         </Col>
-        <a href="https://github.com/benabbott85/coronavote" target='_blank'><Button className="ruckbtn">View More</Button></a>
+        <a href="https://github.com/benabbott85/coronavote" target='_blank' rel="noreferrer"><Button className="ruckbtn">View More</Button></a>
 
     </Card>
              {/* <a href="https://github.com/benabbott85/coronavote" target='_blank'><Button className="vbtn">View More</Button></a> */}
