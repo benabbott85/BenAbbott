@@ -264,31 +264,23 @@ margin-top: -100px !important
 
 @media screen and (max-width: 992px){
 .ben{
-  margin-left: -650px;
+  
   font-size: 20px;
 }
 
 .stack{
   font-size: 15px;
-  margin-left: -120px;
+  margin-left: 190px;
   width: 60vw;
 }
 .me{
   margin-top:-5px;
-  margin-left: -650px;
+ 
 }
 
-.workBtn{
-  margin-left: -650px;
-
-}
-
-.resumeBtn{
-  margin-left: -650px;
-}
 
 .mytech{
-  margin-left: -620px;
+
   font-size: 15px;
 }
 
@@ -299,13 +291,26 @@ width: 5vw;
 }
 
 .ptitle{
-  margin-left: -575px;
+ 
   font-size: 15px;
 }
 
+.ruckcard{
+  margin-left: 500px;
+}
 
+.officeimg{
+  width: 250px;
+  margin-left: -600px;
+}
 
+.forgot{
+  margin-left: 70px;
+}
 
+.contactme{
+  margin-left: 250px;
+}
 
 
 }
