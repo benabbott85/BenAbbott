@@ -261,3 +261,59 @@ margin-top: -100px !important
    
 }
 
+
+@media screen and (max-width: 992px){
+.ben{
+  margin-left: -650px;
+  font-size: 20px;
+}
+
+.stack{
+  font-size: 15px;
+  margin-left: -120px;
+  width: 60vw;
+}
+.me{
+  margin-top:-5px;
+  margin-left: -650px;
+}
+
+.workBtn{
+  margin-left: -650px;
+
+}
+
+.resumeBtn{
+  margin-left: -650px;
+}
+
+.mytech{
+  margin-left: -620px;
+  font-size: 15px;
+}
+
+.mongo{
+  margin-left: -300px;
+  height: 80px;
+width: 5vw;
+}
+
+.ptitle{
+  margin-left: -575px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 750px){
+  
+}
+
+@media screen and (max-width: 475px){
+  
+}

@@ -8,7 +8,7 @@ import Material from './assets/material.png'
 function tech(){
     return(
 <>
-<h2>Tech that I use:</h2>
+<h2 className="mytech">Tech that I use:</h2>
 <Row>
 <img className="mongo" src={Rct} alt='react'/>
 <img className="mongo" src={JS} alt='JS'/>
